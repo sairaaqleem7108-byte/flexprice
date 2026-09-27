@@ -1,0 +1,62 @@
+{
+  "past_audit_findings": [
+    {
+      "finding_id": "FND-2025-001",
+      "control_id": "CC6.1",
+      "description": "Backup restoration testing failed to meet recovery time objectives during Q1 2025.",
+      "severity": "High",
+      "year": 2025
+    },
+    {
+      "finding_id": "FND-2024-007",
+      "control_id": "CC3.2",
+      "description": "Insufficient multi-factor authentication controls for remote administrative access identified.",
+      "severity": "Medium",
+      "year": 2024
+    },
+    {
+      "finding_id": "FND-2023-014",
+      "control_id": "CC5.3",
+      "description": "Access review procedures were incomplete for privileged accounts in the Finance system.",
+      "severity": "Low",
+      "year": 2023
+    },
+    {
+      "finding_id": "FND-2025-009",
+      "control_id": "CC7.2",
+      "description": "Incident response documentation did not include timely notification procedures as required.",
+      "severity": "Medium",
+      "year": 2025
+    }
+  ],
+  "tested_controls": [
+    {
+      "control_id": "CC6.1",
+      "control_name": "Backup and Recovery Testing",
+      "frequency": "Quarterly",
+      "last_tested_date": "2026-06-15",
+      "status": "Pass"
+    },
+    {
+      "control_id": "CC3.2",
+      "control_name": "Multi-Factor Authentication Implementation",
+      "frequency": "Annual",
+      "last_tested_date": "2026-01-20",
+      "status": "Pass"
+    },
+    {
+      "control_id": "CC5.3",
+      "control_name": "Access Review and Management",
+      "frequency": "Quarterly",
+      "last_tested_date": "2026-07-05",
+      "status": "Pass"
+    },
+    {
+      "control_id": "CC7.2",
+      "control_name": "Incident Response and Notification Procedures",
+      "frequency": "Annual",
+      "last_tested_date": "2026-04-30",
+      "status": "Pass"
+    }
+  ]
+}
